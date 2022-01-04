@@ -90,14 +90,10 @@ section {
   background-image: url("../hero-bg.jpg");
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
-  position: relative;
   align-items: flex-start;
-=======
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
->>>>>>> c20d4f691379015eb780bffe819127356ea0599e
 }
 
 .hero-cta {
@@ -106,7 +102,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -176,7 +172,7 @@ section {
 }
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   border-bottom: 3px solid;
   padding-bottom: 20px;
@@ -364,4 +360,19 @@ section {
 
 .flex-row {
   display: flex;
+}
+
+/* Media Query for smaller desktop screens and smaller */
+
+@media screen and (max-width: 980px) {
+}
+
+/* Media Query for tablets and smaller */
+
+@media screen and (max-width: 768px) {
+}
+
+/* Media Query for mobile phones and smaller */
+
+@media screen and (max-width: 575px) {
 }
