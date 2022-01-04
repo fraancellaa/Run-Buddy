@@ -88,6 +88,7 @@ section {
   background-size: cover;
   background-position: center;
   position: relative;
+  align-items: flex-start;
 }
 
 .hero-form {
@@ -95,7 +96,6 @@ section {
   padding: 20px;
   width: 500px;
   color: #024e76;
-  align-items: flex-start;
 }
 
 .hero-form {
